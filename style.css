@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;   
@@ -19,4 +19,82 @@
 
 .logo {
     margin-right: auto;
+}
+
+.awesome {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.roadPic {
+    height: auto;
+    width: 800px;
+}
+
+.tagline {
+    font-size: 80px;
+}
+
+.taglineBox {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.843);
+}
+
+.signup {
+    color: white;
+    background-color: #3882F6;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border: 0px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.whiteBox {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    height: 400px;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+.imageSection {
+    display: flex;
+    background-color: white;
+    gap: 100px;
+}
+
+.randomInfo {
+    background-color: white;
+    font-size: 40px;
+}
+
+.blueBox {
+    border-style: solid;
+    border-color: blue;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
 }
