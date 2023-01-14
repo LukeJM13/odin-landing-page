@@ -13,8 +13,8 @@
     padding: 40px;
     justify-content: space-around;
     gap: 30px;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
 .logo {
@@ -27,12 +27,14 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.roadPic {
+.mainPic {
     height: auto;
-    width: 800px;
+    width: 700px;
+    border-radius: 5px;
 }
 
 .tagline {
@@ -74,9 +76,9 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 20px;
-    height: 400px;
+    height: 380px;
     gap: 40px;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .imageSection {
@@ -92,9 +94,111 @@
 
 .blueBox {
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(224, 224, 224);
+    border-width: 2px;
     height: 200px;
     width: 200px;
     background-color: white;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.blueBox:hover {
+    border-color: #3882F6;
+    cursor: pointer;
+}
+
+.red {
+    height: auto;
+    width: 200px;
+    transform: translateY(-42px);
+}
+
+.green {
+    height: auto;
+    width: 200px;
+}
+
+.blue {
+    height: 200px;
+    width: auto;
+    transform: translate(-30px, 0px);
+}
+
+.yellow {
+    height: auto;
+    width: 200px;
+    transform: translateY(-50px);
+}
+
+.greyBox {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.quoteName {
+    background-color: #E5E7EB;
+    font-size: 20px;
+    transform: translateX(200px);
+}
+
+.whiteBox2 {
+    background-color: white;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueBox2 {
+    background-color: #3882F6;
+    height: 50%;
+    width: 50%;
+    border-style: none;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionCall {
+    background-color: #3882F6;
+    font-size: 30px;
+    height: 40%;
+    margin-top: auto;
+}
+
+.productSignup {
+    background-color: #3882F6;
+    font-weight: lighter;
+    font-size: 20px;
+    height: 40%;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    font-weight: bolder;
+    font-size: 25px;
 }
